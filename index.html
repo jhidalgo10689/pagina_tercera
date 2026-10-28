@@ -1,13 +1,59 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi página</title>
-</head>
-<body>
-    <h1>lavacar la esquina</h1>
-    <p> Web creada por Jorge Hidalgo Camacho</p>
-    <p>Practicando etiquetas</p>
-</body>
+    <link rel="stylesheet" href="./css/estilos.css" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html" class="logo">Mi sitio</a>
+      <button class="Hamburguesa" id="btn_menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="nosotros.html">Acerca de</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="portada">
+        <h1>Lavacar de autos a domicilio</h1>
+        <p>Dejamos su auto como nuevo sin que tenga que salir de casa</p>
+        <a href="contacto.html" class="btn">Reservar</a>
+      </section>
+      <section class="servicios">
+        <h2>Servicios</h2>
+        <ul>
+          <li>Lavado</li>
+          <li>Pulido</li>
+          <li>Encerado</li>
+        </ul>
+      </section>
+      <section class="galeria">
+        <h2>Galería</h2>
+        <p>Algunos de nuestros trabajos</p>
+        <img src="./img/Image20261027204706.png" alt="">
+        <img src="./img/Image20261027204709.jpg" alt="">
+        <img src="./img/img-3.webp" alt="">
+      </section>
+    </main>
+    <footer>
+      <div>
+        <p><strong>Mi sitio</strong></p>
+        <p>Telefono: 2222-2222 - correo: info@misitio.com</p>
+      </div>
+      <ul>
+        <li><a href="https://www.facebook.com/">Facebook</a></li>
+        <li><a href="https://www.instagram.com/">Instagram</a></li>
+      </ul>
+      <p>&copy; 2026 mi sitio</p>
+    </footer>
+    <script src="./js/main.js"></script>
+  </body>
 </html>
