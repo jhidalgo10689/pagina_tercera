@@ -136,6 +136,13 @@ footer a{
   transition: transform .2s;
 }
 
+.tarjeta img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
 .tarjeta:hover { transform: translateY(-4px); }
 
 @media (min-width: 701px) { .tarjeta { width: calc(50% - .5rem); } }
